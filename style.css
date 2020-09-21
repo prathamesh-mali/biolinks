@@ -50,7 +50,7 @@ a {
 }
 
 .link-list-item {
-	border: 1px solid var(--lightest-color);
+	
 	box-sizing: border-box;
 	margin: 20px auto;
 	color: var(--darkest-color);
