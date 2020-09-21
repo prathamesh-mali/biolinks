@@ -65,6 +65,7 @@ a:hover {
 	color: var(--highlight-color);
 	border-color: var(--highlight-color);
 	text-shadow: 0 0 2em var(--highlight-color);
+	border: 5px;
 }
 
 .icon-list-img {
