@@ -1,25 +1,15 @@
-:root {
-	--darkest-color: #ffffff;
-	--lightest-color: #ffffff;
-	--highlight-color:#ffffff;
-	--bright-color-1: #f0183cad;
-	--bright-color-2: #467becfb;
-	--bright-color-3: #467becfb;
-}
-
 body {
-	background-image: linear-gradient(to right, red, orange);
-	color: var(--lightest-color);
-	font-family: 'Roboto', sans-serif;
+  background-image:linear-gradient(to right, red, orange);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .container {
-	width: 90%;
-	max-width: 1000px;
-	margin: 50px auto;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .circle-shape {
@@ -28,10 +18,9 @@ body {
 	position: relative;
 	overflow: hidden;
 	border-radius: 50%;
-	border: 3px solid var(--lightest-color);
+	border: 3px solid #ffffff;
 	margin: 0 auto;
 }
-
 .profile-pic {
 	 
 	margin: 0 auto;
@@ -40,48 +29,28 @@ body {
 }
 
 a {
-	color: var(--lightest-color);
-	text-decoration: none;
+  color: #fef5ef;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+
+#insta-link-bone {
+  color: #fff;
+  background-color: #467becfb;
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+  transition: all 0.15s;
+  border-radius: 40px;
+  text-decoration: bold;
+}
+
+#insta-link-bone:hover {
+  border: 3px solid #fef5ef;
 }
 
 .ig-link {
 	margin: 10px 0;
 	font-weight: bold;
-}
-
-.link-list-item {
-	
-	/*box-sizing: border-box;*/
-	margin: 20px auto;
-	color: var(--darkest-color);
-	padding: 15px;
-	text-align: center;
-	transition: all 0.15s;
-	border-radius: 40px;
-}
-
-.link-list-item:hover,
-a:hover {
-	color: var(--highlight-color);
-	border-color: var(--highlight-color);
-	text-shadow: 0 0 2em var(--highlight-color);
-	border: 5px;
-}
-
-.icon-list-img {
-	height: 50px;
-	width: 50px;
-	margin: 3px;
-}
-
-.dark {
-	background: var(--bright-color-1);
-}
-
-.medium {
-	background: var(--bright-color-2);
-}
-
-.light {
-	background: var(--bright-color-3);
 }
